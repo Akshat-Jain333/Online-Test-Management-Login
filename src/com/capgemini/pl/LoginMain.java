@@ -1,6 +1,7 @@
 package com.capgemini.pl;
 
 import java.sql.SQLException;
+import java.util.Scanner;
 
 import com.capgemini.exception.LoginException;
 import com.capgemini.service.LoginService;
@@ -16,11 +17,7 @@ public class LoginMain {
 			
 		} catch (SQLException|LoginException e) {
 		System.err.println(e.getMessage());
-			
 			e.printStackTrace();
 		}
-		
-		
-		
 	}
 }

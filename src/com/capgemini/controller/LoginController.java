@@ -9,7 +9,7 @@ public class LoginController {
 		}
 		
 		else if(user.equals("user")) {
-			//UserPage user=new UserPage();
+			//UserClient user=new UserClient();
 			  //user.show();
 		}
 	}

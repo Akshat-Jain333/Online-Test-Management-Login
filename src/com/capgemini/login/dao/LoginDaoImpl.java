@@ -12,6 +12,7 @@ public class LoginDaoImpl implements LoginDao {
 	Connection connection;
 	PreparedStatement pst;
 	ResultSet rs;
+	Login login;
 
 	public LoginDaoImpl() throws SQLException {
 		connection = DatabaseUtil.myconnection();
@@ -32,6 +33,6 @@ public class LoginDaoImpl implements LoginDao {
 		else
 			return false;
 	}
-
 }
-
+	
+	

@@ -7,5 +7,4 @@ public interface LoginDao {
 
 	public boolean LoginUser(Login login)  throws SQLException;
 	
-	
 }
